@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "DigitalAccount.webApi/1.0.0": {
         "dependencies": {
+          "DigitalAccount.Application": "1.0.0",
           "DigitalAccount.Domain": "1.0.0",
+          "DigitalAccount.Infra.Repository": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -62,9 +64,25 @@
           }
         }
       },
+      "DigitalAccount.Application/1.0.0": {
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DigitalAccount.Application.dll": {}
+        }
+      },
       "DigitalAccount.Domain/1.0.0": {
         "runtime": {
           "DigitalAccount.Domain.dll": {}
+        }
+      },
+      "DigitalAccount.Infra.Repository/1.0.0": {
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DigitalAccount.Infra.Repository.dll": {}
         }
       }
     }
@@ -117,7 +135,17 @@
       "path": "swashbuckle.aspnetcore.swaggerui/6.2.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
     },
+    "DigitalAccount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "DigitalAccount.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigitalAccount.Infra.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

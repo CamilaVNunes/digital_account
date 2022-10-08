@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DigitalAccount.Application\DigitalAccount.Application.csproj" />
     <ProjectReference Include="..\DigitalAccount.Domain\DigitalAccount.Domain.csproj" />
+    <ProjectReference Include="..\DigitalAccount.Infra.Repository\DigitalAccount.Infra.Repository.csproj" />
   </ItemGroup>
 
 </Project>

@@ -73,6 +73,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "DigitalAccount.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigitalAccount.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigitalAccount.Application.dll": {}
+        }
+      },
       "DigitalAccount.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -81,6 +94,19 @@
         },
         "runtime": {
           "bin/placeholder/DigitalAccount.Domain.dll": {}
+        }
+      },
+      "DigitalAccount.Infra.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DigitalAccount.Infra.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigitalAccount.Infra.Repository.dll": {}
         }
       }
     }
@@ -211,15 +237,27 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+    "DigitalAccount.Application/1.0.0": {
+      "type": "project",
+      "path": "../DigitalAccount.Application/DigitalAccount.Application.csproj",
+      "msbuildProject": "../DigitalAccount.Application/DigitalAccount.Application.csproj"
+    },
     "DigitalAccount.Domain/1.0.0": {
       "type": "project",
       "path": "../DigitalAccount.Domain/DigitalAccount.Domain.csproj",
       "msbuildProject": "../DigitalAccount.Domain/DigitalAccount.Domain.csproj"
+    },
+    "DigitalAccount.Infra.Repository/1.0.0": {
+      "type": "project",
+      "path": "../DigitalAccount.Infra.Repository/DigitalAccount.Infra.Repository.csproj",
+      "msbuildProject": "../DigitalAccount.Infra.Repository/DigitalAccount.Infra.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DigitalAccount.Application >= 1.0.0",
       "DigitalAccount.Domain >= 1.0.0",
+      "DigitalAccount.Infra.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -258,8 +296,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Application\\DigitalAccount.Application.csproj": {
+              "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Application\\DigitalAccount.Application.csproj"
+            },
             "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Domain\\DigitalAccount.Domain.csproj": {
               "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Domain\\DigitalAccount.Domain.csproj"
+            },
+            "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Infra.Repository\\DigitalAccount.Infra.Repository.csproj": {
+              "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Infra.Repository\\DigitalAccount.Infra.Repository.csproj"
             }
           }
         }

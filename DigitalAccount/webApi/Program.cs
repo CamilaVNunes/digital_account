@@ -1,3 +1,8 @@
+using DigitalAccount.Application.UseCases.AddCustomer;
+using DigitalAccount.Domain.Contracts.AddCustomer;
+using DigitalAccount.Domain.UseCases.AddCustomer;
+using DigitalAccount.Infra.Repository.Repositories.AddCustomer;
+
 namespace DigitalAccount.webApi
 {
     public class Program
@@ -7,6 +12,8 @@ namespace DigitalAccount.webApi
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddSingleton<IAddCustomerRepository, AddCustomerRepository>();
+            builder.Services.AddScoped<IAddCustomerUseCase, AddCustomerUseCase>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

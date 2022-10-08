@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "DigitalAccount.Infra.Repository/1.0.0": {
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
         "runtime": {
           "DigitalAccount.Infra.Repository.dll": {}
+        }
+      },
+      "DigitalAccount.Domain/1.0.0": {
+        "runtime": {
+          "DigitalAccount.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DigitalAccount.Infra.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigitalAccount.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
