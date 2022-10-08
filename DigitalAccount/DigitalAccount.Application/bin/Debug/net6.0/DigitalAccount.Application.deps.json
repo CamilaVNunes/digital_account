@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DigitalAccount.Application/1.0.0": {
+        "dependencies": {
+          "DigitalAccount.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DigitalAccount.Application.dll": {}
+        }
+      },
+      "DigitalAccount.Domain/1.0.0": {
+        "runtime": {
+          "DigitalAccount.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DigitalAccount.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigitalAccount.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

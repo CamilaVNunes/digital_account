@@ -9,6 +9,8 @@ E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\Microsoft.Ope
 E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\DigitalAccount.Domain.dll
+E:\dese.git\digital_account\DigitalAccount\webApi\bin\Debug\net6.0\DigitalAccount.Domain.pdb
 E:\dese.git\digital_account\DigitalAccount\webApi\obj\Debug\net6.0\DigitalAccount.webApi.csproj.AssemblyReference.cache
 E:\dese.git\digital_account\DigitalAccount\webApi\obj\Debug\net6.0\DigitalAccount.webApi.GeneratedMSBuildEditorConfig.editorconfig
 E:\dese.git\digital_account\DigitalAccount\webApi\obj\Debug\net6.0\DigitalAccount.webApi.AssemblyInfoInputs.cache

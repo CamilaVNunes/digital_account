@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.webApi", "we
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.Domain", "DigitalAccount.Domain\DigitalAccount.Domain.csproj", "{DA1273F3-9D7C-4D5E-8A54-0575C7A9E908}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.Application", "DigitalAccount.Application\DigitalAccount.Application.csproj", "{3520F12B-A758-46F6-A0F4-C3D91380D393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalAccount.Infra.Repository", "DigitalAccount.Infra.Repository\DigitalAccount.Infra.Repository.csproj", "{7EA4556A-D526-4C08-85A9-E5A88D2DAC41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{DA1273F3-9D7C-4D5E-8A54-0575C7A9E908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA1273F3-9D7C-4D5E-8A54-0575C7A9E908}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA1273F3-9D7C-4D5E-8A54-0575C7A9E908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3520F12B-A758-46F6-A0F4-C3D91380D393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3520F12B-A758-46F6-A0F4-C3D91380D393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3520F12B-A758-46F6-A0F4-C3D91380D393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3520F12B-A758-46F6-A0F4-C3D91380D393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA4556A-D526-4C08-85A9-E5A88D2DAC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA4556A-D526-4C08-85A9-E5A88D2DAC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA4556A-D526-4C08-85A9-E5A88D2DAC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA4556A-D526-4C08-85A9-E5A88D2DAC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
