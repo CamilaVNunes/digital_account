@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZnOokcxa02IGKZDHJIquX1PF7HBvTG7V4XmX0Mno68eJWBaA9N8cYF3CGWTgdVIQA8Z1AtA6ZP4nf1VbpFyaYg==",
+  "dgSpecHash": "q/SgpetKIomBPNfCe7NoaEZAdJov3xg1WR4Fi0I03QR8HMoRcINgnC/2qhkrs2q81ZU2Gi6Z6RnFSyIk285khQ==",
   "success": true,
-  "projectFilePath": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\webApi.csproj",
+  "projectFilePath": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\DigitalAccount.webApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

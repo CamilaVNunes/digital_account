@@ -1,4 +1,4 @@
-namespace webApi
+namespace DigitalAccount.webApi
 {
     public class Program
     {

@@ -72,6 +72,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DigitalAccount.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DigitalAccount.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DigitalAccount.Domain.dll": {}
+        }
       }
     }
   },
@@ -200,10 +210,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "DigitalAccount.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DigitalAccount.Domain/DigitalAccount.Domain.csproj",
+      "msbuildProject": "../DigitalAccount.Domain/DigitalAccount.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DigitalAccount.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -215,9 +231,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\webApi.csproj",
-      "projectName": "webApi",
-      "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\webApi.csproj",
+      "projectUniqueName": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\DigitalAccount.webApi.csproj",
+      "projectName": "DigitalAccount.webApi",
+      "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\DigitalAccount.webApi.csproj",
       "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
       "outputPath": "E:\\dese.git\\digital_account\\DigitalAccount\\webApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -241,7 +257,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Domain\\DigitalAccount.Domain.csproj": {
+              "projectPath": "E:\\dese.git\\digital_account\\DigitalAccount\\DigitalAccount.Domain\\DigitalAccount.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
