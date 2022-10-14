@@ -244,6 +244,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
